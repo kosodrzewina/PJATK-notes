@@ -40,10 +40,11 @@ with open(os.path.join(docs_path, 'index.html'), mode='w+') as f:
     <!DOCTYPE html>
     <html lang="en">
     <head>
+        <link rel="icon" href="https://raw.githubusercontent.com/kosodrzewina/PJATK-notes/master/fav.ico">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Uni notes</title>
+        <title>PJATK notes</title>
         {h.read()}
     </head>
     <body>
@@ -53,7 +54,7 @@ with open(os.path.join(docs_path, 'index.html'), mode='w+') as f:
 
 
         <footer>
-            Pages are auto-generated, if you see any problems please open an issue on <a href="https://github.com/shilangyu/uni-notes">GitHub</a> <br/>
+            <a href="https://github.com/kosodrzewina/PJATK-notes">Repo on GitHub</a> <br/>
             Last update: {datetime.now().strftime("%H:%M %B %d, %Y")}
         </footer>
     </body>
