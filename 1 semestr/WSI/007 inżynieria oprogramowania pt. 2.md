@@ -1,6 +1,6 @@
 # inżynieria oprogramowania pt. 2
 
-ftp - andrzejj
+ftp - andrzejj  
 do zaliczenie - model przypadkow uzycia
 
 ## System powinien
