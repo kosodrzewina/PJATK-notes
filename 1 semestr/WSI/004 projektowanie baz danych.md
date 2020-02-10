@@ -25,13 +25,14 @@
 
 **Atrybuty encji** - abstrakcyjne cechy, a nie konkretne wartości.
 
-## Encja jest w postaci normalnej, jeśli:
+## Encja jest w postaci normalnej, jeśli
+
 - Opisuje jeden typ obiektów
 - Wartości atrybutów są elementarne (atomowe, niepodzielne)
 - Nie zawiera kolekcji (powtarzających się grup informacji
 - Posiada klucz
 - Kolejność atrybutów może być dowolna, ich kolejność nie może kodować żadnych informacji
 
-**Związek** - uporządkowana lista encji. Poszczególne encje mogą występować w niej wielokrotnie. Każdy związek określa pewną zależność między zbiorami egzemplarzy. 
+**Związek** - uporządkowana lista encji. Poszczególne encje mogą występować w niej wielokrotnie. Każdy związek określa pewną zależność między zbiorami egzemplarzy.
 
 **Związek binarny** - związek, który tworzą dwie encje, Jest ona reprezentowana graficznie jako linia łącząca dwie ramki (encje).

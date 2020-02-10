@@ -44,7 +44,7 @@ Podstawowa iteracja, trwa jeden miesiąc lub krócej, w tym czasie wytwarzany je
 
 ## Artefakty scrum
 
-- Product backlog - pożądana funkcjonalność posortowane wg. priorytetów, dostępne dla wszystkich interesariuszy, wszyscy mogą dodawać elementy 
+- Product backlog - pożądana funkcjonalność posortowane wg. priorytetów, dostępne dla wszystkich interesariuszy, wszyscy mogą dodawać elementy
 - Product backlog item
 - Sprint backlog
 - Sprint task
