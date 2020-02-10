@@ -48,10 +48,10 @@
 
 ## Przydatne strony
 
-- hackthebox.eu - strona dla pentesterów  
-- **IppSec** (<https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA>) - kanał na yt pokazujący rozwiązania do ww. strony
-- elearnsecurity.com - profesjonalna strona dla pentesterów
-- 2019game.picoctf.com - CTF dla początkujących
+- [hackthebox](<https://www.hackthebox.eu/>) - strona dla pentesterów  
+- [IppSec](<https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA/>) - kanał na yt pokazujący rozwiązania do ww. strony
+- [elearnsecurity](https://www.elearnsecurity.com/) - profesjonalna strona dla pentesterów
+- [CTF dla początkujących](<https://2019game.picoctf.com/>)
 
 ## Hardware przydatny przy włamywaniu się
 
