@@ -1,1 +1,1 @@
-# PJATK notes scoop
+# PJATK notes
