@@ -4,13 +4,21 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>001 podstawowe pojęcia algorytmiki pt. 1</title>
+  <title>003</title>
   <style>
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+    var mathElements = document.getElementsByClassName("math");
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") { katex.render(texText.data, mathElements[i], { displayMode: mathElements[i].classList.contains("display"), throwOnError: false } );
+    }}});</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -316,24 +324,13 @@
   </script>
 </head>
 <body>
-<h1 id="podstawowe-pojęcia-algorytmiki">001 podstawowe pojęcia algorytmiki</h1>
-<p>p.chrzastowski@gmail.com<br />
-pch (ftp)</p>
-<p>Informatyka w ogólnym zarysie Brookshear Glenn J.</p>
-<p><strong>Algorytmika</strong> - najważniejsza część informatyki, zajmuje się wszelakim planowaniem działań Pierwszymi algorytmikami byli starożytni Grecy (konstrukcje geometryczne)</p>
-<h2 id="dziedzina-operacji-platońskich">Dziedzina operacji platońskich</h2>
+<h1 id="section">003</h1>
+<p>Nie ma wzoru na największy wspólny dzielnik, który działa dla każdych dwóch liczb.</p>
+<h2 id="pierwszy-pomysł-na-nwdm-n">Pierwszy pomysł na <span class="math inline">NWD(m, n)</span></h2>
+<p>Dla <span class="math inline">0 \leqslant m \leqslant n</span> oraz <span class="math inline">n &gt; 0</span></p>
 <ul>
-<li>Koncentrujemy się na 3 rodzajach obiektów: punktach, prostych i okręgach</li>
-<li>Wolno na tych obiektach przeprowadzić jedną z pięciu operacji</li>
-</ul>
-<h2 id="operacje-platońskie">Operacje platońskie</h2>
-<ul>
-<li>Dla danych dwóch punktów narysować prostą przez nie przechodzącą,</li>
-<li>Dla danych dwóch punktów wykreślić okrąg o środku w jednym z nich i promieniu równym odległości między nimi,</li>
-<li>Dla dwóch prostych wyznaczyć punkt ich przecięcia (o ile istnieje),</li>
-<li>Dla prostej i okręgu wyznaczyć ich punkty przecięcia,</li>
-<li>Dla dwóch okręgów wyznaczyć punkty ich przecięcia.</li>
-<li>… i nic ponadto!</li>
+<li>Jeśli <span class="math inline">m = 0</span> to <span class="math inline">NWD(m, n) = n</span></li>
+<li>Jeśli <span class="math inline">m &gt; 0</span> to <span class="math inline">NWD(m, n) = NWD(n - m, m)</span></li>
 </ul>
 </body>
 </html>
