@@ -1,4 +1,4 @@
-# geneza i istota baz danych; podstawowe modele baz danych
+# 002 geneza i istota baz danych; podstawowe modele baz danych
 
 ## Przechowywanie danych
 

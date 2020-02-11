@@ -1,4 +1,4 @@
-# podstawowe pojęcia algorytmiki
+# 001 podstawowe pojęcia algorytmiki
 
 p.chrzastowski@gmail.com  
 pch (ftp)

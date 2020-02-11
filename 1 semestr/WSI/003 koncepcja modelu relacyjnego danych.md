@@ -1,4 +1,4 @@
-# koncepcja modelu relacyjnego bazy danych
+# 003 koncepcja modelu relacyjnego bazy danych
 
 **Edgar Frank "Ted" Codd** - brytyjski informatyk znany przede wszystkim ze swojego wkładu do rozwoju teorii relacyjnych baz danych.
 

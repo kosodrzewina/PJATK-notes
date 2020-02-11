@@ -1,4 +1,4 @@
-# inżynieria oprogramowania pt. 1
+# 006 inżynieria oprogramowania pt. 1
 
 1. Dostarczenie przewodnika dla aktywności realizowania przez zespół projektowy w trakcie budowy oprogramowania
 

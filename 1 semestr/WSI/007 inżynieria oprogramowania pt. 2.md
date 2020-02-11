@@ -1,4 +1,4 @@
-# inżynieria oprogramowania pt. 2
+# 007 inżynieria oprogramowania pt. 2
 
 ftp - andrzejj  
 do zaliczenie - model przypadkow uzycia

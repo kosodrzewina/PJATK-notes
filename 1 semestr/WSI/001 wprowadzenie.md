@@ -1,4 +1,4 @@
-# wprowadzenie
+# 001 wprowadzenie
 
 - Architektura dwuwarstwowa - całe przetwarzanie jest w jednym miejscu
 

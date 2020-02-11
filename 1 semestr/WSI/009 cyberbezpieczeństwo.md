@@ -1,4 +1,4 @@
-# cyberbezpieczeństwo
+# 009 cyberbezpieczeństwo
 
 ## **CTF** (capture the flag)
 
@@ -48,10 +48,10 @@
 
 ## Przydatne strony
 
-- [hackthebox](<https://www.hackthebox.eu/>) - strona dla pentesterów  
-- [IppSec](<https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA/>) - kanał na yt pokazujący rozwiązania do ww. strony
+- [hackthebox](https://www.hackthebox.eu/) - strona dla pentesterów
+- [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA/) - kanał na yt pokazujący rozwiązania do ww. strony
 - [elearnsecurity](https://www.elearnsecurity.com/) - profesjonalna strona dla pentesterów
-- [CTF dla początkujących](<https://2019game.picoctf.com/>)
+- [CTF dla początkujących](https://2019game.picoctf.com/)
 
 ## Hardware przydatny przy włamywaniu się
 

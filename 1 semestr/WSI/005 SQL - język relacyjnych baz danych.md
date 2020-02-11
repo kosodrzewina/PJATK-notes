@@ -1,4 +1,4 @@
-# SQL - język relacyjnych baz danych
+# 005 SQL - język relacyjnych baz danych
 
 SEQUEL -> SYSTEM R -> SQL
 

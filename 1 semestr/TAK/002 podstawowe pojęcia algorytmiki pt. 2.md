@@ -1,4 +1,4 @@
-# podstawowe pojęcia algorytmiki
+# 002 podstawowe pojęcia algorytmiki
 
 **Alan Turing** - pokazał, że istnieją problemy algorytmiczne, których nie da się rozwiązać w żadnej dziedzinie algorytmicznej. Problem odpowiedniości Posta jest przykładem takiego problemu.
 
