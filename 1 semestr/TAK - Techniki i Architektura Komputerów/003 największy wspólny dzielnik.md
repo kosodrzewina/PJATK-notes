@@ -1,15 +1,17 @@
-# 003 największy wspólny dzielnik
+# TAK
+
+## 003 największy wspólny dzielnik
 
 Nie ma wzoru na największy wspólny dzielnik, który działa dla każdych dwóch liczb.
 
-## Pierwszy pomysł na $NWD(m, n)$
+### Pierwszy pomysł na $NWD(m, n)$
 
 Dla $0 \leqslant m \leqslant n$ oraz $n > 0$
 
 - Jeśli $m = 0$ to $NWD(m, n) = n$
 - Jeśli $m > 0$ to $NWD(m, n) = NWD(n - m, m)$
 
-## $NWD(m, n)$ gdy $m \leqslant n$
+### $NWD(m, n)$ gdy $m \leqslant n$
 
 $P$ - parzyste
 

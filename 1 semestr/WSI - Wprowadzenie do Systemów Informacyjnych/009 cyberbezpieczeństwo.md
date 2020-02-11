@@ -1,6 +1,8 @@
-# 009 cyberbezpieczeństwo
+# WSI
 
-## **CTF** (capture the flag)
+## 009 cyberbezpieczeństwo
+
+### **CTF** (capture the flag)
 
 - Jeopards
 - Attack-defense
@@ -8,7 +10,7 @@
 
 **Pentester** - osoba próbująca się włamać do danej usługi/strony itp. w celu wykrycia luk bezpieczeństwa
 
-## Hakerzy
+### Hakerzy
 
 - White hats
   - Researchers
@@ -33,7 +35,7 @@
 
 **Fuzzing** - zautomatyzowany proces znajdowania luk bezpieczeństwa, błędów itp.
 
-## Network pentest
+### Network pentest
 
 - Ustalanie zakresu testu
 - Zbieranie informacji
@@ -46,14 +48,14 @@
 - (…)
 - Przygotowanie raportu
 
-## Przydatne strony
+### Przydatne strony
 
 - [hackthebox](https://www.hackthebox.eu/) - strona dla pentesterów
 - [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA/) - kanał na yt pokazujący rozwiązania do ww. strony
 - [elearnsecurity](https://www.elearnsecurity.com/) - profesjonalna strona dla pentesterów
 - [CTF dla początkujących](https://2019game.picoctf.com/)
 
-## Hardware przydatny przy włamywaniu się
+### Hardware przydatny przy włamywaniu się
 
 - Rubber Ducky
 - USBNinja

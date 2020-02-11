@@ -1,4 +1,6 @@
-# 001 wprowadzenie
+# WSI
+
+## 001 wprowadzenie
 
 - Architektura dwuwarstwowa - całe przetwarzanie jest w jednym miejscu
 

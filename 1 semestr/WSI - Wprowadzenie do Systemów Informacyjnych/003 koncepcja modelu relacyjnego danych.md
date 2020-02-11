@@ -1,8 +1,10 @@
-# 003 koncepcja modelu relacyjnego bazy danych
+# WSI
+
+## 003 koncepcja modelu relacyjnego bazy danych
 
 **Edgar Frank "Ted" Codd** - brytyjski informatyk znany przede wszystkim ze swojego wkładu do rozwoju teorii relacyjnych baz danych.
 
-## Najważniejsze założenia modelu relacyjnego
+### Najważniejsze założenia modelu relacyjnego
 
 - Wszystkie dane zapisywane są w postaci tabel
 - W tabeli znajdują się kolumny zawierające dane określonego typu

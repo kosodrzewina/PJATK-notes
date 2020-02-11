@@ -1,4 +1,6 @@
-# 006 inżynieria oprogramowania pt. 1
+# WSI
+
+## 006 inżynieria oprogramowania pt. 1
 
 1. Dostarczenie przewodnika dla aktywności realizowania przez zespół projektowy w trakcie budowy oprogramowania
 
@@ -10,7 +12,7 @@
 
 **SCRUM** (agile managment) - framework skupiający się na zarządzaniu procesem wytwarzania oprogramowania
 
-## Scrum
+### Scrum
 
 Ramy postępowania, dzięki którym ludzie mogę z powodzeniem rozwiązywać złożone problemy adaptacyjne, by w sposób produktywny i kreatywny wytwarzać produkty o najwyższej możliwej wartości.
 
@@ -18,13 +20,13 @@ Ramy postępowania, dzięki którym ludzie mogę z powodzeniem rozwiązywać zł
 - Łatwy do zrozumienia
 - Trudny do opanowania
 
-## Scrum - główne reguły
+### Scrum - główne reguły
 
 - Przejrzystość - zespół i wszyscy w organizacji mają dostęp do całości prac
 - Inspekcja - częste sprawdzanie wyników pozwala na szybką reakcję
 - Adaptacja
 
-## Role w Scrum
+### Role w Scrum
 
 - Product owner - odpowiada za przedsięwzięcie, odpowiada za wizję projektu, zarządza priorytetem zadań, itp. (zawsze jest ot tylko jedna osoba, może brać udział w pracach zespołu). Jego zadania:
   - Jasne artykułowanie elementów Rejestru Produktu
@@ -32,7 +34,7 @@ Ramy postępowania, dzięki którym ludzie mogę z powodzeniem rozwiązywać zł
 - Zespół/zespoły deweloperskie - zespół złożony z profesjonalistów, których zadaniem jest dostarczenie, na zakończenie każdego Sprintu, gotowego do potencjalnego wydania Przyrostu produktu. Tylko członkowie zespołu deweloperskiego tworzą przyrost.
 - Scrum master - pilnuje przestrzegania procesu, pomaga rozwiązywać problemy, chroni zespół przed światem zewnętrznym, utrzymuje artefakty
 
-## Sprint
+### Sprint
 
 Podstawowa iteracja, trwa jeden miesiąc lub krócej, w tym czasie wytwarzany jest "ukończony", gotowy do użycia i potencjalnego wydania przyrost.
 
@@ -42,7 +44,7 @@ Podstawowa iteracja, trwa jeden miesiąc lub krócej, w tym czasie wytwarzany je
 - Sprint retrospective meeting - tylko zespół i scrum master, bez właściciela produktu. Analiza sukcesów, porażek, błędów itp. z ostatniego sprintu. Uczestnicy muszą czuć się bezpiecznie, nie szukamy winnych.
 - Backlog refinment meeting - doprecyzowanie elementów rejestru, szacowanie potrzebnego wysiłku. Realizowane w trakcie sprintów
 
-## Artefakty scrum
+### Artefakty scrum
 
 - Product backlog - pożądana funkcjonalność posortowane wg. priorytetów, dostępne dla wszystkich interesariuszy, wszyscy mogą dodawać elementy
 - Product backlog item

@@ -1,9 +1,11 @@
-# 007 inżynieria oprogramowania pt. 2
+# WSI
+
+## 007 inżynieria oprogramowania pt. 2
 
 ftp - andrzejj  
 do zaliczenie - model przypadkow uzycia
 
-## System powinien
+### System powinien
 
 - Realizować wyznaczone funkcje
 - Być łatwym w użyciu dla docelowej grupy użytkowników
@@ -11,7 +13,7 @@ do zaliczenie - model przypadkow uzycia
 
 **UML** (unified modelling language) - język modelowania, wykorzystywany przez różne metodyki wytwarzania oprogramowania
 
-## Modele systemu wg. Jacobsona
+### Modele systemu wg. Jacobsona
 
 - Model przypadków użycia
 - Obiektowy model dziedziny
@@ -22,7 +24,7 @@ do zaliczenie - model przypadkow uzycia
 
 **Klasyfikator** - kategoria modelowania UML, stanowiąca uogólnienie grupy bytów o podobnych własnościach, odnosi się do każdego rodzaju diagramu UML
 
-## W UML występują 4 rodzaje związków pomiędzy elementami
+### W UML występują 4 rodzaje związków pomiędzy elementami
 
 - Uogólnienie - występuje pomiędzy klasyfikatorami ogólnymi a klasyfikatorem specjalizowanym
 - Asocjacja - opisuje powiązanie pomiędzy wystąpieniem klasyfikatorów

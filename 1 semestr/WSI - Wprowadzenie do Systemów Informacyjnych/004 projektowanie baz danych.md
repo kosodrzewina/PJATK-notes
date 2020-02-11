@@ -1,12 +1,14 @@
-# 004 projektowanie baz danych
+# WSI
 
-## Etapy projektowania bazy danych
+## 004 projektowanie baz danych
+
+### Etapy projektowania bazy danych
 
 - Etap projektu koncepcyjnego - określanie zapotrzebowanie biznesowe na projekt. Jest to etap rozeznania marketingowego, mającego dać odpowiedź na pytanie jakich funkcji produktu oczekuje klient, jakie funkcje są mu niezbędne do prowadzenia działań.
 - Etap projektowania logicznego - etap, w którym planuje się ogólną strukturę.
 - Etap projektowania fizycznego - model koncepcyjny przekłada się na model techniczny.
 
-## Analiza przed przystąpieniem do projektowania bazy danych
+### Analiza przed przystąpieniem do projektowania bazy danych
 
 - Co jest przedmiotem projektu
 - Jaki jest cel projektu, jakie problemy projekt ma rozwiązać lub usprawnić działanie rozwiązań dotychczasowych
@@ -25,7 +27,7 @@
 
 **Atrybuty encji** - abstrakcyjne cechy, a nie konkretne wartości.
 
-## Encja jest w postaci normalnej, jeśli
+### Encja jest w postaci normalnej, jeśli
 
 - Opisuje jeden typ obiektów
 - Wartości atrybutów są elementarne (atomowe, niepodzielne)
