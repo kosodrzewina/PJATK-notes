@@ -6,6 +6,8 @@ honzik - katalog na edux, mail
 
 **dane** - zbiór znaków alfanumerycznych
 
+**SZBD** - system zarządzania bazą danych
+
 ### Wymagania stawiane przed SZBD
 
 - współbieżny dostęp do danych
