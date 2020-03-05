@@ -40,7 +40,7 @@ Podstawowa iteracja, trwa jeden miesiąc lub krócej, w tym czasie wytwarzany je
 
 - Sprint planning meeting - wybór elementów Rejestru Produktu do realizacji w najbliższym sprincie (często jednocześnie jest to też Backlog Refinment Meeting - spotkanie modyfikujące rejestr produktu). Maksymalnie 8h na miesiąc
 - Daily scrum - 15 minut, na stojąco, zawsze w tym samym czasie i miejscu. Każdy podsumowuje co zrobił wczoraj, co zrobi dzisiaj, jakie problemy utrudniają mu w osiąganiu celów.
-- Sprint review meeting - pokazanie właścicielowi produktu działający produkt, prezentacja na żywo, a nie raport, właściciel produktu określa, które z elementów są faktycznie zrealizowane ("kompiluje się bez błędów" != "zrobione"; "zrobione w 99%" != "zrobione")
+- Sprint review meeting - pokazanie właścicielowi produktu działający produkt, prezentacja na żywo, a nie raport, właściciel produktu określa, które z elementów są faktycznie zrealizowane ("kompiluje się bez błędów" $\neq$ "zrobione"; "zrobione w 99%" $\neq$ "zrobione")
 - Sprint retrospective meeting - tylko zespół i scrum master, bez właściciela produktu. Analiza sukcesów, porażek, błędów itp. z ostatniego sprintu. Uczestnicy muszą czuć się bezpiecznie, nie szukamy winnych.
 - Backlog refinment meeting - doprecyzowanie elementów rejestru, szacowanie potrzebnego wysiłku. Realizowane w trakcie sprintów
 
