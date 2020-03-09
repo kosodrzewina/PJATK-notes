@@ -28,7 +28,7 @@ Na poziomie logicznym wszystkie dane (łącznie z nazwami tabel i kolumn), repre
 
 Do każdej pojedynczej danej dostęp możliwy jest poprzez nazwę tabeli, nazwę kolumny oraz wartość/wartości klucza głównego.
 
-_NAZWA_BAZY_DANYCH_._NAZWA_SCHEMATU_._NAZWA_TABELI_._NAZWA_KOLUMNY_
+NAZWA_BAZY_DANYCH.NAZWA_SCHEMATU.NAZWA_TABELI.NAZWA_KOLUMNY
 
 #### 3 - postulat obiektu null
 
