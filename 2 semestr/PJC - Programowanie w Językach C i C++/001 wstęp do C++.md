@@ -38,7 +38,7 @@ W powyższym przykładzie kod zostanie wykonany tylko wtedy, kiedy _x_ będzie z
 Strumień wyjściowy
 
 ```c++
-cout << <to co umieszczamy w strumieniu>
+cout << <to_co_umieszczamy_w_strumieniu>
 ```
 
 ### cin
@@ -46,7 +46,7 @@ cout << <to co umieszczamy w strumieniu>
 Strumień wejściowy
 
 ```c++
-cin >> <to co umieszczamy w strumieniu>
+cin >> <to_co_umieszczamy_w_strumieniu>
 ```
 
 ### include
