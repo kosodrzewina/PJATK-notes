@@ -52,4 +52,3 @@ Jeżeli istnieje pula zadań, to możliwe jest planowanie wykonywalnych zadań (
 - dobrze zdefiniowane wymagania czasowe
 - systemy czasu rzeczywistego mogą być rygorystyczne lub łagodne
 - rygorystyczne systemy czasu rzeczywistego
-  - pamięć dyskowa ograniczona...
