@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>003</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+    var mathElements = document.getElementsByClassName("math");
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") { katex.render(texText.data, mathElements[i], { displayMode: mathElements[i].classList.contains("display"), throwOnError: false } );
+    }}});</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link
+    rel="icon"
+    href="https://raw.githubusercontent.com/kosodrzewina/PJATK-notes/master/fav.ico"
+  />
+  <style>
+    html {
+      font-size: 100%;
+      overflow-y: scroll;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    body {
+      color: #444;
+      font-family: Georgia, Palatino, "Palatino Linotype", Times,
+        "Times New Roman", serif;
+      font-size: 12px;
+      line-height: 1.7;
+      padding: 1em;
+      margin: auto;
+      max-width: 42em;
+      background: #fefefe;
+    }
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #0b0080;
+    }
+    a:hover {
+      color: #06e;
+    }
+    a:active {
+      color: #faa700;
+    }
+    a:focus {
+      outline: thin dotted;
+    }
+    ::-moz-selection {
+      background: rgba(255, 255, 0, 0.3);
+      color: #000;
+    }
+    ::selection {
+      background: rgba(255, 255, 0, 0.3);
+      color: #000;
+    }
+    a::-moz-selection {
+      background: rgba(255, 255, 0, 0.3);
+      color: #0645ad;
+    }
+    a::selection {
+      background: rgba(255, 255, 0, 0.3);
+      color: #0645ad;
+    }
+    p {
+      margin: 1em 0;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #111;
+      line-height: 125%;
+      margin-top: 2em;
+      font-weight: 400;
+    }
+    h4,
+    h5,
+    h6 {
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.2em;
+    }
+    h5 {
+      font-size: 1em;
+    }
+    h6 {
+      font-size: 0.9em;
+    }
+    blockquote {
+      color: #666;
+      margin: 0;
+      padding-left: 3em;
+      border-left: 0.5em #eee solid;
+    }
+    hr {
+      display: block;
+      height: 2px;
+      border: 0;
+      border-top: 1px solid #aaa;
+      border-bottom: 1px solid #eee;
+      margin: 1em 0;
+      padding: 0;
+    }
+    code,
+    kbd,
+    pre,
+    samp {
+      color: #000;
+      font-family: monospace, monospace;
+      font-size: 0.98em;
+    }
+    pre {
+      white-space: pre;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    b,
+    strong {
+      font-weight: 700;
+    }
+    dfn {
+      font-style: italic;
+    }
+    ins {
+      background: #ff9;
+      color: #000;
+      text-decoration: none;
+    }
+    mark {
+      background: #ff0;
+      color: #000;
+      font-style: italic;
+      font-weight: 700;
+    }
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+    }
+    sup {
+      top: -0.5em;
+    }
+    sub {
+      bottom: -0.25em;
+    }
+    ol,
+    ul {
+      margin: 1em 0;
+      padding: 0 0 0 2em;
+    }
+    li p:last-child {
+      margin-bottom: 0;
+    }
+    ol ol,
+    ul ul {
+      margin: 0.3em 0;
+    }
+    dl {
+      margin-bottom: 1em;
+    }
+    dt {
+      font-weight: 700;
+      margin-bottom: 0.8em;
+    }
+    dd {
+      margin: 0 0 0.8em 2em;
+    }
+    dd:last-child {
+      margin-bottom: 0;
+    }
+    img {
+      border: 0;
+      -ms-interpolation-mode: bicubic;
+      vertical-align: middle;
+    }
+    figure {
+      display: block;
+      text-align: center;
+      margin: 1em 0;
+    }
+    figure img {
+      border: none;
+      margin: 0 auto;
+    }
+    figcaption {
+      font-size: 0.8em;
+      font-style: italic;
+      margin: 0 0 0.8em;
+    }
+    table {
+      margin-bottom: 2em;
+      border-bottom: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+    table th {
+      padding: 0.2em 1em;
+      background-color: #eee;
+      border-top: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+    }
+    table td {
+      padding: 0.2em 1em;
+      border-top: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+      vertical-align: top;
+    }
+    .author {
+      font-size: 1.2em;
+      text-align: center;
+    }
+    @media only screen and (min-width: 480px) {
+      body {
+        font-size: 14px;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      body {
+        font-size: 16px;
+      }
+    }
+    @media print {
+      * {
+        background: 0 0 !important;
+        color: #000 !important;
+        filter: none !important;
+        -ms-filter: none !important;
+      }
+      body {
+        font-size: 12pt;
+        max-width: 100%;
+      }
+      a,
+      a:visited {
+        text-decoration: underline;
+      }
+      hr {
+        height: 1px;
+        border: 0;
+        border-bottom: 1px solid #000;
+      }
+      a[href]:after {
+        content: " (" attr(href) ")";
+      }
+      abbr[title]:after {
+        content: " (" attr(title) ")";
+      }
+      .ir a:after,
+      a[href^="#"]:after,
+      a[href^="javascript:"]:after {
+        content: "";
+      }
+      blockquote,
+      pre {
+        border: 1px solid #999;
+        padding-right: 1em;
+        page-break-inside: avoid;
+      }
+      img,
+      tr {
+        page-break-inside: avoid;
+      }
+      img {
+        max-width: 100% !important;
+      }
+      @page :left {
+        margin: 15mm 20mm 15mm 10mm;
+      }
+      @page :right {
+        margin: 15mm 10mm 15mm 20mm;
+      }
+      h2,
+      h3,
+      p {
+        orphans: 3;
+        widows: 3;
+      }
+      h2,
+      h3 {
+        page-break-after: avoid;
+      }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/darkreader@4.7.15/darkreader.min.js"></script>
+  <script>
+    DarkReader.enable({
+      brightness: 100,
+      contrast: 90,
+      sepia: 10
+    });
+  </script>
+</head>
+<body>
+<h1 id="rbd">RBD</h1>
+<h2 id="section">003</h2>
+<h3 id="proces-projektowania-bazy-danych">Proces projektowania bazy danych</h3>
+<ul>
+<li>co jest przedmiotem projektu?</li>
+<li>jaki jest cel projektu, jakie problemy projekt ma rozwiązać lub usprawnić działąnie rozwiązań dotychczasowych</li>
+<li>jakie funkcje będą realizowane w ramach projektu?</li>
+<li>kto te funkcje będzie wykorzystywał?</li>
+<li>jakie informacje (pod postacią danych) muszą być przechowywane w bazie danych, aby powyzsze założenia mogły zostać zrealizowane?</li>
+<li>jaki jest przewidywany aspekt ekonomiczny całego przedsięwzięcia?</li>
+</ul>
+<h3 id="etapy-projektowania-bazy-danych">Etapy projektowania bazy danych</h3>
+<h4 id="faza-analizy">1 Faza analizy</h4>
+<h4 id="etap-projektowy">2 Etap projektowy</h4>
+<h4 id="faza-implementacji-i-wdrożenia">3 Faza implementacji i wdrożenia</h4>
+<h3 id="diagram-związków-encji">Diagram związków encji</h3>
+<p>Model, zarówno fragmentu rzeczywistości, który leży w obszarze zainteresowań systemu, jak też struktury bazy danych. Jak każdy model stanowi uproszczenie opisywanego obiektu.</p>
+<h4 id="powinien">Powinien</h4>
+<ul>
+<li>w sposób jednoznaczny określać wymagania użytkowników w zakresie kompletności przechowywania w niej danych</li>
+<li>umożliwiać sprawdzenie czy analityk systemu dobrze zrozumiał intencje użytkowników i specyfikę środowiska, w którym projektowany system będzie eksploatowany</li>
+<li>być istotnie prostszy od samej bazy danych, ponieważ abstrahuje on od szczegółów implementacyjnych, które muszą być później opracowane przez projektanta bazy danych tak, aby baza danych mogła powstać i spełniać postawione przed nią zadania.</li>
+</ul>
+<h3 id="narzędzia-case-computer-aided-software-engineering">Narzędzia CASE (Computer Aided Software Engineering)</h3>
+<p>Specjalizowane programy wspomagające procesy projektowania systemów informacyjnych, pozwalające na tworzenie wielu rodzajów diagramów. Narzędzia <strong>CASE</strong> dostarczają narzędzi graficznych do projektowania i rysowania diagramów na ekranie komputera.</p>
+<h3 id="encja">Encja</h3>
+<p>Byt, coś co istnieje, jest odróżnialny od innych bytów, co da się opisać, o czym informację można poznać i przechowywać.</p>
+<h4 id="atrybut-encji">Atrybut encji</h4>
+<p>Abstrakcyjne cechy, a nie konkretne wartości. Np. atrybutem encji <strong>Student</strong> jest <em>nazwisko</em>. Atrybut musi opisywać encję, a nie jej związki z innymi encjami!</p>
+<h3 id="pierwsza-postać-normalna">Pierwsza postać normalna</h3>
+<p>Encja jest w pierwszej postaci normalnej, jeśli: opisuje jeden typ obiektów, - wartości atrybutów są elementarne (atomowe, niepodzielne) - każda kolumna jest - wartością skalarną (atomową), a nie macierzą lub listą czy też czymkolwiek, co posiada własną strukturę, - nie zawiera kolekcji (powtarzających się grup informacji), - posiada klucz, - kolejność atrybutów może być dowolna (znaczenie danych nie zależy od kolejności atrybutów, ich kolejność nie może kodować żadnej informacji)</p>
+<p>Postulat atomowości można też rozumieć jako brak możliwości rozdzielenia informacji zapisanej w pojedynczej komórce tabeli albo jako jednorodność atrybutu. Np. atrybut <em>Dzieci pracownika</em> encji <strong>Pracownik</strong> jest błędnym rozwiązaniem. Może co prawda służyć do zero - jedynkowego kodowania na nim.</p>
+<h3 id="klucz">Klucz</h3>
+<p>Jednoznaczny identyfikator, zbiór (może być jednoelementowy) atrybutów danej encji, których wartości jednoznacznie identyfikują każdą instancję tej encji. Zbiorów atrybutów obdarzonych taką właściwością może być więcej niż jeden, ale tylko jeden z nich jest wybierany do roli <strong>klucza głównego</strong>.</p>
+<h3 id="wzięzy-spójności-constraints">Wzięzy spójności (constraints)</h3>
+<p>Narzędzie <strong>CASE</strong> udostępniają możliwość definiowania więzów spójności na etapie tworzenia diagramu związków encji. Więzy referencyjne są definiowane automatycznie wraz ze zdefiniowaniem związków encji. Ponadto możliwe jest zdefiniowanie więzów klucza głównego, więzów <strong>NOT NULL</strong> oraz więzów <strong>UNIQUE</strong>. Na ogół możliwe jest zdefiniowanie więzów <strong>CHECK</strong>.</p>
+<h3 id="indeks">Indeks</h3>
+<p>Wśród atrybutów encji możemy wyróżniać atrybuty, bądź grupy atrybutów, względem wartości których będą wyszukiwane egzemplarze encji. Dla takich atrybutów specyfikujemy indeksy. Indeks na kluczu głównym jest zakłądany automatycznie i nie trzeba go oddzielnie specyfikować.</p>
+<h3 id="związek">Związek</h3>
+<p>Uporządkowana lista encji. Poszczególne encje mogą na niej występować wielokrotnie. Każdy związek określa pewną zależność między zbiorami egzemplarzy (instancji) encji wchodzącymi w skłąd związku - instancję związku.</p>
+<p>Związek można zapisać formalnie przy użyciu notacji relacyjnej:</p>
+<p><span class="math inline">Z(E_1,\  ...,\ E_n)</span></p>
+<p>Można też opisywać werbalnie.</p>
+<p>Każdy związek ma nazwę!</p>
+</body>
+</html>
