@@ -103,14 +103,20 @@ const int var1;
 int const var2; 
 ```
 
+---
+
 ```c++
 const double PI = 3.14; // dobrze!
 ```
+
+---
 
 ```c++
 const double PI;
 PI = 3.14; // źle!
 ```
+
+---
 
 ```c++
 const int i = 25;
@@ -128,6 +134,8 @@ if (false)
     LABEL:if(...)
         ...
 ```
+
+---
 
 ```c++
 double a, b, c;
