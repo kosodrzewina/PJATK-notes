@@ -5,7 +5,7 @@
 ### Operator warunkowy
 
 ```c++
-    (warunek) ? jeżeli prawda : jeżeli fałsz;
+(warunek) ? jeżeli prawda : jeżeli fałsz;
 ```
 
 ### Kolejność wywoływania funkcji
